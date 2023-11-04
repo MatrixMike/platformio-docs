@@ -24,7 +24,7 @@ default configuration options for :ref:`piocore`.
     Relative path is allowed for directory option:
 
     * ``~`` will be expanded to user's home directory
-    * ``../`` or ``..\`` go up to one folder
+    * ``../`` or ``..\`` go up one folder
 
     There is a ``$PROJECT_HASH`` template variable. You can use it in a directory
     path. It will by replaced by a SHA1[0:10] hash of the full project path.
